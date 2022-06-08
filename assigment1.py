@@ -43,7 +43,7 @@ datal=[[0, 'Setosa'],
         [1, 'Versicolor'], 
         [2, 'Virginia']]
 col_names = ["Index Number", "Class Label"]
-df = pd.DataFrame(([[0],[1],[2]], [['Setosa'],['Versicolor'],['Virginia']]),
+df = pd.DataFrame(([0],[1],[2]), (['Setosa'],['Versicolor'],['Virginia'])),
     columns=col_names)
 
 st.table(df)
