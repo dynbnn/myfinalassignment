@@ -39,14 +39,6 @@ prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
 st.write(['setosa','versicolor','virginica'])
-datal=[[0, 'Setosa'], 
-        [1, 'Versicolor'], 
-        [2, 'Virginia']]
-col_names = ["Index Number", "Class Label"]
-lah=([0],[1],[2]), (['Setosa'],['Versicolor'],['Virginia'])
-df = pd.DataFrame(np.lah,columns=col_names)
-
-st.table(df)
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
