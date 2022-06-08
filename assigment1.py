@@ -26,7 +26,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-iris=pd.read_csv(https://www.raw.githubusercontent.com/dynbnn/myfinalassignment/main/IRIS.csv)
+iris=pd.read_csv('https://raw.githubusercontent.com/dynbnn/myfinalassignment/main/IRIS.csv')
 X = iris.[:,:-1]
 Y = iris.[:,-1]
 
