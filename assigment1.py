@@ -43,7 +43,11 @@ datal=[[0, 'Setosa'],
         [1, 'Versicolor'], 
         [2, 'Virginia']]
 col_names = ["Index Number", "Class Label"]
-print(tb(datal, headers=col_names))
+df = pd.DataFrame(
+    rows=datal,
+    columns=col_names)
+
+st.table(df)
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
