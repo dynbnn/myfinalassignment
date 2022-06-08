@@ -44,8 +44,7 @@ datal=[[0, 'Setosa'],
         [2, 'Virginia']]
 col_names = ["Index Number", "Class Label"]
 lah=([0],[1],[2]), (['Setosa'],['Versicolor'],['Virginia'])
-df = pd.DataFrame(np.lah),
-    columns=col_names)
+df = pd.DataFrame(np.lah,columns=col_names)
 
 st.table(df)
 
