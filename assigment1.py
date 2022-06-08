@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
-from tabulate import tabulate as tb
+import numpy as np
 
 st.write("""
 # Simple Iris Flower Prediction App
@@ -43,7 +43,7 @@ datal=[[0, 'Setosa'],
         [1, 'Versicolor'], 
         [2, 'Virginia']]
 col_names = ["Index Number", "Class Label"]
-df = pd.DataFrame(([0],[1],[2]), (['Setosa'],['Versicolor'],['Virginia'])),
+df = pd.DataFrame(np.([0],[1],[2]), (['Setosa'],['Versicolor'],['Virginia'])),
     columns=col_names)
 
 st.table(df)
