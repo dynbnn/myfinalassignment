@@ -41,7 +41,7 @@ c=st.container()
 st.write(['setosa','versicolor','virginica'])
 c.write(['Setosa'])
 c.write(['Versicolor'])
-c.write({'Virginica'])
+c.write(['Virginica'])
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
