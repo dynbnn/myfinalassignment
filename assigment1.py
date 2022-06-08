@@ -37,11 +37,8 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-c=st.container()
-st.write(['setosa','versicolor','virginica'])
-c.write(['Setosa'])
-c.write(['Versicolor'])
-c.write(['Virginica'])
+c=st.write(['setosa','versicolor','virginica'])
+st.table(c)
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
