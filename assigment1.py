@@ -43,7 +43,7 @@ datal=[[0, 'Setosa'],
         [1, 'Versicolor'], 
         [2, 'Virginia']]
 col_names = ["Index Number", "Class Label"]
-print(tabulate(datal, headers=col_names))
+print(tb(datal, headers=col_names))
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
