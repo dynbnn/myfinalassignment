@@ -27,8 +27,8 @@ st.subheader('User Input parameters')
 st.write(df)
 
 iris=pd.read_csv('https://raw.githubusercontent.com/dynbnn/myfinalassignment/main/IRIS.csv')
-X = iris.[:,:-1]
-Y = iris.[:,-1]
+X = iris[:,:-1]
+Y = iris[:,-1]
 
 clf = RandomForestClassifier()
 clf.fit(X, Y)
