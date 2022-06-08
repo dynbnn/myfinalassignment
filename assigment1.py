@@ -39,7 +39,7 @@ prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
 st.write(['setosa','versicolor','virginica'])
-#datal=[[0, 'Setosa'], 
+datal=[[0, 'Setosa'], 
         [1, 'Versicolor'], 
         [2, 'Virginia']]
 col_names = ["Index Number", "Class Label"]
